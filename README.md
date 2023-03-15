@@ -11,26 +11,10 @@
 - Allocate and schedule interview with different companies and update their result status
 - Download reports of students in csv format
 
-## Screenshots
 
-- Sign Up
-  ![Sign-Up](./images/signup.PNG)
-
-- Sign In
-  ![Sign-In](./images/signin.PNG)
-
-- Student Page
-  ![Student-Page](./images/student_list.PNG)
-
-- Interview Page
-  ![Interview-Page](./images/company_list.PNG)
-
-- Add student
-  ![Add-Student](./images/add_student.PNG)
-
-- Schedule Interview
-  ![Interview](./images/schedule_interview.PNG)
 
 ## Setup
 
 Run `npm install` to install required dependencies.
+## Start
+run npm start
