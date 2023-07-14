@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // mongoose.connect(`mongodb+srv://${process.env.username}:${process.env.password}@cluster0.zygzz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`);
 
-mongoose.connect('mongodb://127.0.0.1:27017/PlacementCell');
+mongoose.connect( process.env.DB);
 
 const db = mongoose.connection;
 
