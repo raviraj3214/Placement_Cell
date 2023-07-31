@@ -26,6 +26,7 @@ const path = require('path')
 app.use(express.urlencoded());
 
 
+
 app.use(cookieParser());
 app.set("layout extractStyles", true);
 app.set("layout extractScripts", true);
