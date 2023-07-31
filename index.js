@@ -1,8 +1,10 @@
 const express = require('express');
-const cookieParser = require('cookie-parser');
 const dotenv = require('dotenv');
-
 dotenv.config();
+const cookieParser = require('cookie-parser');
+
+
+
 
 const app = express();
 const port = process.env.PORT || 9000;
